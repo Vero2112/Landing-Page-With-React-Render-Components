@@ -10,7 +10,7 @@ const Home = () => {
 		<div>
 			{" "}
 			<Navbar />
-			<div class="container fluid p-4">
+			<div className="container fluid p-4">
 				<Jumbotron /> <Cardsgroups />
 			</div>
 		</div>

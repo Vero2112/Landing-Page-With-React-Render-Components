@@ -4,12 +4,12 @@ import React from "react";
 const Navbar = () => {
 	return (
 		<div>
-			<nav class="navbar navbar-expand-lg navbar-light  ">
-				<a class="navbar-brand col-9 ms-2" href="#">
+			<nav className="navbar navbar-expand-lg navbar-light  ">
+				<a className="navbar-brand col-9 ms-2" href="#">
 					Start Bootstrap
 				</a>
 				<button
-					class="navbar-toggler"
+					className="navbar-toggler"
 					type="button"
 					data-toggle="collapse"
 					data-target="#navbarSupportedContent"
@@ -20,28 +20,28 @@ const Navbar = () => {
 				</button>
 
 				<div
-					class="collapse navbar-collapse col-3 text-end"
+					className="collapse navbar-collapse col-3 text-end"
 					id="navbarSupportedContent">
-					<ul class="navbar-nav text-end ms-5 ">
-						<li class="nav-item active ">
-							<a class="nav-link text-end" href="#">
-								Home <span class="sr-only">(current)</span>
+					<ul className="navbar-nav text-end ms-5 ">
+						<li className="nav-item active ">
+							<a className="nav-link text-end" href="#">
+								Home <span className="sr-only">(current)</span>
 							</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link text-end" href="#">
+						<li className="nav-item">
+							<a className="nav-link text-end" href="#">
 								About
 							</a>
 						</li>
 
-						<li class="nav-item">
-							<a class="nav-link  text-end" href="#">
+						<li className="nav-item">
+							<a className="nav-link  text-end" href="#">
 								Services
 							</a>
 						</li>
 
-						<li class="nav-item">
-							<a class="nav-link  text-end" href="#">
+						<li className="nav-item">
+							<a className="nav-link  text-end" href="#">
 								Contact
 							</a>
 						</li>
