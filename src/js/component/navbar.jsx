@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = () => {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg navbar-light  ">
+			<nav className="navbar navbar-expand-lg bg-light navbar-light  ">
 				<a className="navbar-brand col-9 ms-2" href="#">
 					Start Bootstrap
 				</a>
