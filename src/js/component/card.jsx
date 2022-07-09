@@ -1,10 +1,10 @@
 import React from "react";
 import propTypes from "prop-types";
 //create your first component
-const Cardsgroups = (props) => {
+const Card = (props) => {
 	return (
 		<div className="card-group">
-			<div class="col">
+			<div className="col">
 				<div className="card">
 					<img
 						className="card-img-top"
@@ -27,9 +27,9 @@ const Cardsgroups = (props) => {
 		</div>
 	);
 };
-Cardsgroups.propTypes = {
+Card.propTypes = {
 	name: propTypes.string,
 	src: propTypes.string,
 	text: propTypes.string,
 };
-export default Cardsgroups;
+export default Card;
